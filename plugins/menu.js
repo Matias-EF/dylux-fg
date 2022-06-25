@@ -25,19 +25,15 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-  ────  *DyLux  ┃ ᴮᴼᵀ*  ────
+  ────  *𝙿𝚊𝚛𝚊𝚐𝚞𝚊  ┃ 𝙱𝙾𝚃*  ────
 
 👋🏻 _Hola_ *%name*
 
 🏆 Rango : *%role*
 🧿 Nivel : *%level* 
 👥 Usuarios : %totalreg
-─────────────
-▢ Crea tu propio bot 
-• https://youtu.be/jeXHB0IIzCM
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
-─────────────
+
+
 %readmore
 Ⓟ = Premium
 ⓓ = Diamantes
@@ -151,7 +147,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   //const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
     let pp = './src/fg_logo.jpg'
     
-  conn.sendHydrated(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n', pp, 'https://youtube.com/fg98f', 'YouTube', null, null, [
+  conn.sendHydrated(m.chat, text.trim(), '▢ 𝙿𝚊𝚛𝚊𝚐𝚞𝚊  ┃ 𝙱𝙾𝚃\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n', pp, 'https://youtube.com/fg98f', 'YouTube', null, null, [
       ['ꨄ︎ Apoyar', '/donate'],
       ['⏍ Info', '/botinfo'],
       ['✆ Owner', '/owner']
