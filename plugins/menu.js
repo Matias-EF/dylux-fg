@@ -147,9 +147,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   //const pp = await (await fetch('https://i.ibb.co/qMG1JPY/fg.jpg')).buffer()
     let pp = './src/fg_logo.jpg'
     
-  conn.sendHydrated(m.chat, text.trim(), '▢ 𝙿𝚊𝚛𝚊𝚐𝚞𝚊  ┃ 𝙱𝙾𝚃\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98._\n', pp, 'https://youtube.com/fg98f', 'YouTube', null, null, [
-      ['ꨄ︎ Apoyar', '/donate'],
-      ['⏍ Info', '/botinfo'],
+  conn.sendHydrated(m.chat, text.trim(), '▢ 𝙿𝚊𝚛𝚊𝚐𝚞𝚊  ┃ 𝙱𝙾𝚃\n_\n', pp, 'https://www.instagram.com/matiass.zzz', 'Instagram', null, null, [
+      ['', '/'],
+      ['⏍ grupo', '/cluster'],
       ['✆ Owner', '/owner']
     ], m)
   } catch (e) {
